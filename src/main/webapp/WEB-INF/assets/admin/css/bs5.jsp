@@ -2797,33 +2797,7 @@ body {
   visibility: visible;
 }
 
-.btn-datatable {
-  height: 20px !important;
-  width: 20px !important;
-  font-size: 0.75rem;
-  border-radius: 0.375rem !important;
-}
-.btn-close:hover {
-  color: #000;
-  text-decoration: none;
-  opacity: 0.75;
-}
-.btn-close:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-  opacity: 1;
-}
-.btn-close:disabled, .btn-close.disabled {
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  opacity: 0.25;
-}
 
-.btn-close-white {
-  filter: invert(1) grayscale(100%) brightness(200%);
-}
 
 
 </style>
