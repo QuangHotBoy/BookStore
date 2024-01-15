@@ -106,10 +106,10 @@
 					<div class="slider">
 						<div class="list">
 							<div class="item">
-								<img src="/img/Slide1.jpg" alt="">
+								<img src="/img/sl.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="/img/Slide2.jpg" alt="">
+								<img src="/img/Slide1.jpg" alt="">
 							</div>
 							<div class="item">
 								<img src="/img/Slide3.jpg" alt="">
