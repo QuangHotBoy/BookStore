@@ -38,11 +38,6 @@ public class HomeController {
 	@Autowired
 	ParamService param;
 
-	@RequestMapping("index")
-	public String index() {
-		return "/home/index";
-	}
-
 	// có vấn đề để sau
 	@GetMapping("/home/watch")
 	public String getHome(Model m) {
