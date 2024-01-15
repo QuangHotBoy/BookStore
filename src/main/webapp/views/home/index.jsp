@@ -65,7 +65,7 @@
 				<nav class="navbar navbar-expand-lg custom_nav-container ">
 					<a class="navbar-brand" href="/home/watch"
 						style="margin-left: 15px;"> <span class="text-uppercase">
-							Watchtopia Shop </span>
+							BOOK STORE </span>
 					</a>
 					<div class="right-item d-flex ml-auto">
 						<div class="find container">
@@ -112,13 +112,13 @@
 								<img src="/img/Slide1.jpg" alt="">
 							</div>
 							<div class="item">
+								<img src="/img/Slide2.jpg" alt="">
+							</div>
+							<div class="item">
 								<img src="/img/Slide3.jpg" alt="">
 							</div>
 							<div class="item">
 								<img src="/img/Slide4.jpg" alt="">
-							</div>
-							<div class="item">
-								<img src="/img/Slide5.jpg" alt="">
 							</div>
 						</div>
 						<div class="buttons">
@@ -157,7 +157,7 @@
 			<div class="container">
 
 				<div class="heading_container heading_center">
-					<h2>Đồng Hồ Mới Nhất</h2>
+					<h2>Sách Mới Nhất</h2>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
@@ -222,10 +222,7 @@
 							<div class="detail-box">
 								<h5>Theo Dõi Thể Dục</h5>
 								<p>Theo dõi sức khỏe và nhịp tim thông báo tình trạng sức
-									khỏe</p>
-								<a href=""> <span> Đọc thêm </span> <i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>
-								</a>
+									khỏe</p>				
 							</div>
 						</div>
 					</div>
@@ -237,10 +234,7 @@
 							<div class="detail-box">
 								<h5>Cảnh báo & Thông báo</h5>
 								<p>Đặt báo thức - đặt lịch quan trọng dễ dàng đặt thông báo
-								</p>
-								<a href=""> <span> Đọc thêm </span> <i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>
-								</a>
+								</p>					
 							</div>
 						</div>
 					</div>
@@ -252,10 +246,7 @@
 							<div class="detail-box">
 								<h5>Tin Nhắn</h5>
 								<p>Gửi tin nhắn hay gọi điện như một chiếc điện thoại nhỏ
-									tiện lợi</p>
-								<a href=""> <span> Đọc thêm </span> <i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>
-								</a>
+									tiện lợi</p>							
 							</div>
 						</div>
 					</div>
@@ -268,9 +259,6 @@
 								<h5>Bluetooth</h5>
 								<p>Có thể bật bluetooth để truyền tệp hoặc kết nối với các
 									thiết bị khác</p>
-								<a href=""> <span> Đọc thêm </span> <i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
