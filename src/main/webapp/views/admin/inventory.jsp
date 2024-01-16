@@ -48,7 +48,7 @@
 					<table class="table table-dark table-striped table-hover">
 						<thead>
 							<tr>
-								<th scope="col">Mã kho</th>
+								<th scope="col">Stt</th>
 								<th scope="col">Tên sản phẩm</th>
 								<th scope="col">Số lượng</th>	
 								<th scope="col"></th>

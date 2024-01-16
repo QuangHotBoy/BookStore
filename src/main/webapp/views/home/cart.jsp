@@ -27,7 +27,7 @@
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<a class="navbar-brand" href="/home/watch"
 						style="margin-left: 15px;"> <span class="text-uppercase">
-							Watchtopia Shop </span>
+							Book Store </span>
 					</a>
 				</ul>
 				<span class="navbar-text"> <a href="#"

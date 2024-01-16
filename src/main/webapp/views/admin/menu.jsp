@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <a href="/admin/inventory">
-                        <i class="fa-solid fa-caret-right" style="font-size: 15px;"></i><span>Nhập Kho Sản Phẩm</span>
+                        <i class="fa-solid fa-caret-right" style="font-size: 15px;"></i><span>Nhập Số Lượng Sản Phẩm</span>
                     </a>
                 </li>
             </ul>
