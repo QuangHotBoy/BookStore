@@ -207,67 +207,7 @@
 			</div>
 		</section>
 		<!-- Layout giới thiệu Chức năng sản phẩm -->
-		<section class="feature_section layout_padding">
-			<div class="container">
-				<div class="heading_container">
-					<h2>Các Tính Năng Của Đồng Hồ Của Chúng Tôi</h2>
-					<p>Đồng hồ của tôi bao gồm các tính năng này</p>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 col-lg-3">
-						<div class="box">
-							<div class="img-box">
-								<img src="/img/f1.png" alt="">
-							</div>
-							<div class="detail-box">
-								<h5>Theo Dõi Thể Dục</h5>
-								<p>Theo dõi sức khỏe và nhịp tim thông báo tình trạng sức
-									khỏe</p>				
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-3">
-						<div class="box">
-							<div class="img-box">
-								<img src="/img/f2.png" alt="">
-							</div>
-							<div class="detail-box">
-								<h5>Cảnh báo & Thông báo</h5>
-								<p>Đặt báo thức - đặt lịch quan trọng dễ dàng đặt thông báo
-								</p>					
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-3">
-						<div class="box">
-							<div class="img-box">
-								<img src="/img/f3.png" alt="">
-							</div>
-							<div class="detail-box">
-								<h5>Tin Nhắn</h5>
-								<p>Gửi tin nhắn hay gọi điện như một chiếc điện thoại nhỏ
-									tiện lợi</p>							
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-3">
-						<div class="box">
-							<div class="img-box">
-								<img src="/img/f4.png" alt="">
-							</div>
-							<div class="detail-box">
-								<h5>Bluetooth</h5>
-								<p>Có thể bật bluetooth để truyền tệp hoặc kết nối với các
-									thiết bị khác</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="btn-box">
-					<a href=""> Xem thêm </a>
-				</div>
-			</div>
-		</section>
+		
 		<!-- Layout giới liên hệ góp ý sản phẩm -->
 		<section class="contact_section">
 			<div class="container">
@@ -306,41 +246,7 @@
 			</div>
 		</section>
 		<!-- Layout giới đánh giá sản phẩm -->
-		<section class="Customer_reviews">
-			<h2 class="text-center">
-				<strong>Đánh Giá Nổi Bật</strong>
-			</h2>
-			<p class="text-center">Đánh giá của khách hàng dành cho sản phẩm
-				của Lucas Shop.</p>
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="card">
-							<div class="card-img"></div>
-							<div class="card-info">
-								<p class="text-body">Đóng gói tạm ổn, dây cao su đẹp, mặt
-									đồng hồ không trầy, chỉnh giờ và phút được. Mở bằng nút tròn,
-									chỉnh phút là nút tròn, chỉnh giờ là nút dài. Giá 15.000 vậy là
-									tốt rồi ạ.</p>
-								<button type="button" class="btn btn-dark">Lucas</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="card">
-							<div class="card-img"></div>
-							<div class="card-info">
-								<p class="text-body">Vs giá này thì sp như vậy là wá OK r
-									Shipper cực kì thân thiện Có điều đồng hồ bị mất 1 miếng gài
-									lại nhma k s đẹp nhà Nên mua nha mn</p>
-								<button type="button" class="btn btn-dark">Tùng</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section>
+	
 		<!-- back to top -->
 		<div class="backTop">
 			<button onclick="topFunction()" id="totop" title="Go to top">
