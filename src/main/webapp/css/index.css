@@ -546,7 +546,26 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #f0d43a;
+    background-color: #ceeb62;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.shop_section  .new1 {
+    padding: 7px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
     color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;

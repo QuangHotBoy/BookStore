@@ -172,7 +172,7 @@
 										Giá: <span> ${item.product_price} VNĐ </span>
 									</h6>
 								</div>
-								<div class="new">
+								<div class="new1">
 									<span> Nổi Bật </span>
 								</div>
 							</a>
