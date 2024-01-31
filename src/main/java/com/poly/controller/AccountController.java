@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.poly.DAO.LogsDAO;
+
 import com.poly.DAO.UsersDAO;
 import com.poly.entity.Logs;
 import com.poly.entity.Users;
@@ -35,8 +35,6 @@ public class AccountController {
 	@Autowired
 	UsersDAO dao;
 	
-	@Autowired
-	LogsDAO logsDao;
 
 	// Đăng nhập
 	@GetMapping("/account/login")
@@ -82,7 +80,7 @@ public class AccountController {
 					log.setLogin_time(new Date());
 					log.setLogin_out(null);
 					
-					logsDao.save(log);
+			
 					return "redirect:/home/watch";
 				} else {
 					
@@ -102,7 +100,7 @@ public class AccountController {
 					log.setLogin_time(new Date());
 					log.setLogin_out(null);
 					
-					logsDao.save(log);
+				
 					return "redirect:/product/addproduct";
 				}
 				
@@ -325,16 +323,6 @@ public class AccountController {
 		cookieSer.delete("user");
 		cookieSer.delete("pass");
 		ssSer.setAttribute("usercheck", null);
-		
-		
-		Logs Lastlogin = logsDao.findByKeywordsBySQL();
-		
-		log.setLog_id(Lastlogin.getLog_id());
- 		log.setUser(Lastlogin.getUser());
- 		log.setLogin_time(Lastlogin.getLogin_time());
-		log.setLogin_out(new Date());
-		
-		logsDao.save(log);
 		return "redirect:/home/watch";
 	}
 	

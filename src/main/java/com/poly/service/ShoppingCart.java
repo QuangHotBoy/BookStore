@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.context.annotation.SessionScope;
 
 import com.poly.DAO.CartItemDAO;
-import com.poly.DAO.InventoryDAO;
 import com.poly.DAO.ProductDAO;
 import com.poly.DAO.ShoppingCartService;
 import com.poly.entity.CartItem;
@@ -32,9 +31,6 @@ public class ShoppingCart implements ShoppingCartService{
 	@Autowired
 	CartItemDAO cart;
 	
-	@Autowired
-	InventoryDAO invenDao;
-	
 	Map<Integer, CartItem> map = new HashMap<Integer, CartItem>();
 	
 //	@Override
@@ -53,27 +49,14 @@ public class ShoppingCart implements ShoppingCartService{
 		Products p = repo.findById(id).get();
 
 		CartItem cartFind = cart.findByObjectCartSQL(p.getProduct_id(), u.getUsers_id());
-		Inventory inven = invenDao.findObject(id);
 		CartItem item = new CartItem();
 		
 		if(cartFind == null) {
 			item.setProduct(p);
 			item.setUsers(u);
 			item.setQuantity(1);
-		}else {
-			if(cartFind.getQuantity() == inven.getQuantity()) {
-				item.setCart_id(cartFind.getCart_id());
-				item.setProduct(p);
-				item.setUsers(u);
-				item.setQuantity(cartFind.getQuantity());
-			}else {
-				item.setCart_id(cartFind.getCart_id());
-				item.setProduct(p);
-				item.setUsers(u);
-				item.setQuantity(cartFind.getQuantity() + 1);
-			}
-			
-		}		
+		}
+					
 		cart.save(item);
 	}
 
@@ -96,48 +79,7 @@ public class ShoppingCart implements ShoppingCartService{
 		
 	}
 	
-	public void update(int id, String action) {
-		CartItem item = new CartItem();	
-		Users u = ss.getAttribute("username");
-		Products p = repo.findById(id).get();
-
-		CartItem cartFind = cart.findByObjectCartSQL(p.getProduct_id(), u.getUsers_id());
-		Inventory inven = invenDao.findObject(id);
-		if(cartFind.getQuantity() > inven.getQuantity()) {
-			
-		}
-		if(action.equalsIgnoreCase("cong")) {
-			if(cartFind.getQuantity() == inven.getQuantity()) {
-				item.setCart_id(cartFind.getCart_id());
-				item.setProduct(p);
-				item.setUsers(u);
-				item.setQuantity(cartFind.getQuantity());
-			}else {
-				item.setCart_id(cartFind.getCart_id());
-				item.setProduct(p);
-				item.setUsers(u);
-				item.setQuantity(cartFind.getQuantity() + 1);
-			}
-			
-		}else 
-			if(action.equalsIgnoreCase("tru")) 
-		{
-			if(cartFind.getQuantity() == 1) {
-				item.setCart_id(cartFind.getCart_id());
-				item.setProduct(p);
-				item.setUsers(u);
-				item.setQuantity(1);
-			}else {
-				item.setCart_id(cartFind.getCart_id());
-				item.setProduct(p);
-				item.setUsers(u);
-				item.setQuantity(cartFind.getQuantity() - 1);
-			}
-			
-		}
-		cart.save(item);
-	}
-//tese
+	
 	@Override
 	public void clear() {
 		map.clear();

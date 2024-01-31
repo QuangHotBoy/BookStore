@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.poly.DAO.BranchDAO;
-import com.poly.DAO.InventoryDAO;
 import com.poly.DAO.ProductDAO;
 import com.poly.DAO.ProductTypeDAO;
 import com.poly.entity.Branch;
@@ -38,9 +37,6 @@ public class ProductController {
 	
 	@Autowired
 	SessionService ss;
-	
-	@Autowired
-	InventoryDAO inventoryDao;
 	
 	// Đầu Thêm sản phẩm
 	@GetMapping("/product/addproduct")
@@ -73,7 +69,7 @@ public class ProductController {
 			
 			inven.setProduct(newProduct);
 			inven.setQuantity(0);
-			inventoryDao.save(inven);
+
 			
 		} catch (Exception e) {
 			// TODO: handle exception

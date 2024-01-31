@@ -41,6 +41,7 @@ public class Order implements Serializable{/**
 	Date orders_time = new Date();
 	
 	private String orders_address;
+	private String status;
 	
 	@JsonIgnore
 	@OneToMany(mappedBy = "order")

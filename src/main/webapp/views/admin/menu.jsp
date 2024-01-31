@@ -98,11 +98,6 @@
                         <i class="fa-solid fa-caret-right" style="font-size: 15px;"></i><span>Cập Nhật Sản Phẩm</span>
                     </a>
                 </li>
-                <li>
-                    <a href="/admin/inventory">
-                        <i class="fa-solid fa-caret-right" style="font-size: 15px;"></i><span>Nhập Số Lượng Sản Phẩm</span>
-                    </a>
-                </li>
             </ul>
         </li>
 
@@ -121,24 +116,7 @@
             </ul>
         </li>
 
-        <li class="nav-item">
-            <a class="nav-link collapsed" data-bs-target="#listUsers-nav" data-bs-toggle="collapse" href="#">
-                <i class="fa-solid fa-users"></i><span>Người Dùng</span>
-                <i class="fa-solid fa-caret-down ms-auto"></i>
-            </a>
-            <ul id="listUsers-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                <li>
-                    <a href="/admin/userlist">
-                        <i class="fa-solid fa-caret-right" style="font-size: 15px;"></i><span>Danh Sách Tài Khoản</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/admin/historylogs">
-                        <i class="fa-solid fa-caret-right" style="font-size: 15px;"></i><span>Lịch Sử Đănh Nhập</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
+        
 
         <hr>
 
